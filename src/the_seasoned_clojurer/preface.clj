@@ -3,3 +3,12 @@
 
 (def atom?
   (complement coll?))
+
+
+(defn Y
+  [le]
+  ((fn [f]
+     (f f))
+   (fn [f]
+     (le (fn [x]
+           ((f f) x))))))
