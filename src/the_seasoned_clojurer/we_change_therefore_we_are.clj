@@ -2,7 +2,7 @@
   (:refer-clojure :exclude [find])
   (:use [the-seasoned-clojurer.preface :only [atom?]]
         [the-seasoned-clojurer.hop-skip-and-jump :only [letcc]]
-        [the-seasoned-clojurer.the-difference-between-men-and-boys :only [find]]))
+        [the-seasoned-clojurer.ready-set-bang :only [find]]))
 
 
 (def deepM
